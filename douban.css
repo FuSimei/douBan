@@ -1,0 +1,808 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	height: 4020px;
+}
+body .all .foot .color:hover{
+	color: white;
+	background: #37a;
+}
+.head .ahead .aheadLt,.aheadRt::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+/*头部样式设置*/
+.head{
+	height: 150px;
+	background: #eee;
+}
+/*第一部分*/
+.head .ahead{
+	height: 30px;
+	background: #555;
+}
+.head .ahead .aheadLt li{
+	float: left;
+	margin-left: 23px;
+	padding-top: 3px;
+}
+.head .ahead li a{
+	color: #ccc;
+	font-size: 12px;
+}
+.head .ahead li .hover{
+	background: #fff;
+}
+.head .ahead .aheadRt li{
+	float: right;
+	margin-right: 23px;
+	padding-top: 3px;
+}
+.head .ahead .aheadLt li a:hover{
+	color: white;
+}
+.head .ahead .aheadRt li a:hover{
+	color: white;
+}
+/*第二部分*/
+.head .bhead{
+	position: relative;
+	height: 85px;
+	border-bottom: 1px solid #ddd;
+}
+/*确定头部中间位置*/
+.head .bhead .bheadPos{
+	position: absolute;
+	left: 200px;
+	top: 30px;
+}
+.head .bhead .bheadLt{
+	display: inline-block;
+}
+.head .bhead .bheadLt a{
+	font-size: 27px;
+	font-weight: 35px;
+	color: #111;
+}
+.head .bhead .bheadRt{
+	display: inline-block;
+	margin-left: 55px;
+}
+.head .bhead .bheadRt input{
+	width: 450px;
+	height: 28px;
+}
+.head .bhead .bheadRt span{
+	position: absolute;
+	left: 622px;
+	margin-top: -32px;
+}
+/*头部第三部分*/
+.head .chead{
+	position: absolute;
+	left: 180px;
+	padding-top: 10px;
+}
+.head .chead li{
+	float: left;
+	margin-left: 25px;
+}
+.head .chead li a{
+	font-size: 14px;
+	color: black;
+}
+.head .chead li a:hover{
+	background: #555;
+	color: white;
+}
+/*中间样式（横条）*/
+.body img{
+	position: absolute;
+	left: 200px;
+	top: 170px;
+}
+
+/*底部样式*/
+ 
+.foot .footLt .newBook{
+	position: absolute;
+	top: 295px;
+	left: 200px;
+	height: 30px;
+	width: 600px;
+	border-bottom: 1px solid #ddd;
+}
+/*左边第一大块内容  新书速递*/
+/*新书速递导航*/
+
+.foot .footLt .newBook h3{
+	display: inline-block;
+	margin-right: 30px;
+}
+.foot .footLt .newBook span a{
+	font-size: 12px;
+	color: #37a;
+}
+/*书的基本信息第一行*/
+.foot .footLt .bookImg1{
+	position: absolute;
+	top: 340px;
+	left: 200px;
+}
+.foot .footLt .bookImg li{
+	float: left;
+	margin-right: 18px;
+	height: 200px;
+	width: 106px;
+}
+.foot .footLt .bookImg img{
+	height: 158px;
+	width: 106px;
+}
+.foot .footLt .bookImg p{
+	font-size: 12px;
+	margin-top: 5px;
+}
+.foot .footLt .bookImg a span{
+	color: #3377aa;
+	font-size: 13px;
+}
+/*书的基本信息第二行，继承第一行属性*/
+.foot .footLt .bookImg2{
+	position: absolute;
+	top: 565px;
+	left: 200px;
+}
+/*书的基本信息第三行小横条*/
+.foot .footLt .bookImg3{
+	position: absolute;
+	top: 810px;
+	left: 205px;
+}
+.foot .footLt .bookImg3 img{
+	width: 590px;
+	height: 112px;
+}
+
+/*左边第二大块内容*/
+/*图书咨询*/
+.foot .footLt .bookAsk{
+	position: absolute;
+	top: 970px;
+	left: 200px;
+}
+.foot .footLt .bookAsk div{
+	margin-top: 18px;
+	width: 590px;
+	height: 150px;
+	border: 1px solid #ddd;
+}
+.foot .footLt .bookAsk a{
+	display: block;
+	width: 470px;
+}
+.foot .footLt .bookAsk a span{
+	display: block;
+	margin-top: 8px;
+	margin-left: 23px;
+	font-size: 12px;
+	color: #bbb;
+}
+.foot .footLt .bookAsk a .font1{
+	margin-top: 20px;
+	color: #37a;
+	font-size: 15px;
+}
+.foot .footLt .bookAsk a .font3{
+	color: black;
+}
+
+.foot .footLt .bookAsk img{
+	margin-left: 485px;
+	margin-top: -140px;
+}
+/*左边第三块  最受关注的图书*/
+.foot .footLt .careBook{
+	position: absolute;
+	top: 1218px;
+	left: 200px;
+	height: 30px;
+	width: 600px;
+	border-bottom: 1px solid #ddd;
+}
+/*最受关注的图书导航*/
+.foot .footLt .careBook h3{
+	display: inline-block;
+	margin-right: 20px;
+}
+.foot .footLt .careBook span a{
+	font-size: 12px;
+	color: #37a;
+}
+/*最受关注的图书第一列*/
+.foot .footLt .careImg{
+	margin-top: 20px;
+}
+.foot .footLt .careImg li{
+	/*position: relative;*/
+	width: 282px;
+	height: 193px;
+	/*border: 1px solid black;*/
+}
+.foot .footLt .careImg li .position{
+	position: absolute;
+	display: inline-block;
+	margin-left: 10px;
+}
+.foot .footLt .careImg li .position span{
+	display: block;
+	margin-top: 2px;
+	color: black;
+}
+.foot .footLt .careImg li .position span a{
+	font-size: 13px;
+}
+.foot .footLt .careImg li span{
+	font-size: 12px;
+	color: #666;
+	/*margin-top: 10px;*/
+}
+/*最受关注的图书第二列*/
+.foot .footLt .careImg .careImg2{
+	position: absolute;
+	left: 304px;
+	top: 45px;
+}
+/*最受关注的图书第三列*/
+.foot .footLt .careImg3{
+	position: absolute;
+	top: 1000px;
+	left: 5px;
+}
+.foot .footLt .careImg3 img{
+	width: 590px;
+	height: 112px;
+}
+/*左边第四块  豆瓣书店*/
+.foot .footLt .bookStore{
+	position: absolute;
+	top: 2385px;
+	left: 200px;
+	height: 30px;
+	width: 600px;
+	border-bottom: 1px solid #ddd;
+}
+/*豆瓣书店导航*/
+.foot .footLt .bookStore h3{
+	display: inline-block;
+	margin-right: 20px;
+}
+.foot .footLt .bookStore span a{
+	font-size: 12px;
+	color: #37a;
+}
+/*豆瓣书店第一行*/
+.foot .footLt .bookStore1{
+	/*display: inline-block;*/
+	margin-top: 20px;
+	height: 205px;
+}
+.foot .footLt .bookStore1 .storePos{
+	position: absolute;
+	display: inline-block;
+	/*width: 350px;
+	height: 200px;
+	border: 1px solid #f40;*/
+	/*margin-top: -20px;*/
+	margin-left: 23px;
+}
+.foot .footLt .bookStore1 .storePos p{
+	margin-top: 30px;
+	display: inline-block;
+	margin-right: 20px;
+	font-size: 23px;
+	font-weight: 23px;
+}
+.foot .footLt .bookStore1 .storePos .storeFont{
+	margin-top: 15px;
+	font-size: 14px;
+	color: #9B9B9B;
+}
+.foot .footLt .bookStore1 .storePos span{
+	font-size: 14px;
+	color: #E76648;
+}
+/*豆瓣书店第二行*/
+.foot .footLt .bookStore2 li{
+	float: left;
+	margin-right: 12px;
+	height: 200px;
+	width: 106px;
+}
+.foot .footLt .bookStore2 img{
+	height: 140px;
+	width: 106px;
+}
+.foot .footLt .bookStore2 span{
+	display: block;
+	/*width: 106px;*/
+	font-size: 12px;
+	margin-top: 5px;
+}
+.foot .footLt .bookStore2 a span{
+	color: #3377aa;
+	font-size: 13px;
+}
+/*左边第五块 电子图书*/
+.foot .footLt .eBook{
+	position: absolute;
+	top: 2880px;
+	left: 200px;
+	height: 30px;
+	width: 600px;
+	border-bottom: 1px solid #ddd;
+}
+/*电子图书导航*/
+.foot .footLt .eBook h3{
+	display: inline-block;
+	margin-right: 20px;
+}
+.foot .footLt .eFont{
+	font-size: 12px;
+	color: #37a;
+}
+.foot .footLt .eBook p{
+	display: inline-block;
+	font-size: 15px;
+	margin-top: 18px;
+	margin-right: 18px;
+	color: black;
+}
+/*电子图书第一行*/
+.foot .footLt .eImg1{	
+	margin-top: 10px;
+}
+.foot .footLt .eImg li{
+	float: left;
+	margin-right: 12px;
+	height: 200px;
+	width: 106px;
+}
+.foot .footLt .eImg img{
+	height: 158px;
+	width: 106px;
+}
+.foot .footLt .eImg span{
+	display: block;
+	font-size: 12px;
+	margin-top: 5px;
+}
+.foot .footLt .eImg span a{
+	color: #3377aa;
+	font-size: 13px;
+}
+/*电子图书第二行，继承第一行属性*/
+.foot .footLt .eImg2{
+	position: absolute;
+	margin-top: 225px;
+}
+
+/*左边第六块 最受欢迎的书评*/
+/*最受欢迎的书评导航栏*/
+.foot .footLt .popBook{
+	position: absolute;
+	top: 3430px;
+	left: 200px;
+	height: 30px;
+	width: 600px;
+	border-bottom: 1px solid #ddd;
+}
+.foot .footLt .popBook h3{
+	display: inline-block;
+	margin-right: 18px;
+}
+.foot .footLt .popBook span a{
+	font-size: 12px;
+	color: #37a;
+}
+.foot .footLt .popBook span{
+	margin-right: 12px;
+}
+/*最受欢迎的书评第一本*/
+/*以后每本书均继承第一本的属性*/
+.foot .footLt .popImg{
+	width: 600px;
+}
+.foot .footLt .popImg li{
+	position: relative;
+	width: 600px;
+	height: 143px;
+	border-bottom: 1px solid #ddd;
+	margin-top: 20px;
+}
+.foot .footLt .popImg .noBorder{
+	border-bottom: none;
+}
+.foot .footLt .popImg li div{
+	position: absolute;
+	left: 90px;
+	top: 0px;
+	width: 505px;
+	height: 200px;
+	/*border: 1px solid green;*/
+}
+.foot .footLt .popFont{
+	font-size: 15px;
+	color: #3377aa;
+}
+.foot .footLt .popImg li span{
+	/*margin-top: 10px;*/
+	font-size: 12px;
+	color: #666;
+}
+.foot .footLt .popImg li p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+.foot .footLt .popImg li .p1{
+	margin-top: 3px;
+}
+.foot .footLt .popImg li .imgFont{
+	width: 68px;
+}
+
+/*最下边的注释*/
+.foot .footer{
+	position: absolute;
+	top: 4170px;
+	left: 200px;
+	width: 980px;
+	/*height:：80px;*/
+	border-top: 1px dashed #ddd;
+}
+.foot .footer p{
+	/*position: relative;
+	top: 5px;*/
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size: 12px;
+	color: #666;
+	
+}
+.foot .footer .p2{
+	/*margin-: 50px;*/
+	position: absolute;
+	left: 470px;
+	/*margin-top: -100px;
+	margin-left: 410px;*/
+}
+.foot .footer p span{
+	margin-left: 9px;
+}
+.foot .footer p span a{
+	color: #3377aa;
+}
+
+/*底部右边样式*/
+/*右边英语广告位置随父级而固定*/
+.foot .footRt{
+	position: absolute;
+	top: 323px;
+	left: 850px;
+	width: 300px;
+	/*height: 3200px;
+	border: 1px solid #f40;*/
+}
+/*热门标签导航栏*/
+.foot .footRt .hotTag{
+	margin-top: 20px;
+	/*position: absolute;
+	top: 200px;*/
+	width: 100%;
+	height: 30px;
+	border-bottom: 1px solid #ddd;
+}
+.foot .footRt .hotTag ul li:hover{
+	background: #e9e9e9;
+}
+/*.foot .footLt .popBook{
+	
+	left: 200px;
+	height: 30px;
+	width: 600px;
+	border-bottom: 1px solid #ddd;
+}*/
+.foot .footRt .hotTag h3{
+	display: inline-block;
+	margin-right: 18px;
+}
+.foot .footRt .hotTag span a{
+	font-size: 12px;
+	color: #37a;
+}
+.foot .footRt .hotTag span{
+	margin-right: 12px;
+}
+/*热门标签分类*/
+/*每一块均继承以下属性*/
+.foot .footRt .hotTag ul{
+	margin-top: 17px;
+	height: 73px;
+	border-bottom: 1px dashed #ddd;
+}
+.foot .footRt .hotTag ul p{
+	/*margin-top: 20px;*/
+	font-size: 12px;
+}
+.foot .footRt .hotTag ul li a{
+	font-size: 14px;
+	color: #37a;
+}
+.foot .footRt .hotTag ul li{
+	margin-top: 6px;
+	display: inline-block;
+	padding-left: 9px;
+	padding-right: 9px;
+	/*width: 50px;*/
+	height: 20px;
+	background: #f5f5f5;
+	line-height: 20px;
+	text-align: center;
+}
+.foot .footRt .hotTag ul .more{
+	color: #aaa;
+}
+/*畅销图书榜导航*/
+.foot .footRt .bestBook{
+	/*margin-top: 20px;*/
+	position: absolute;
+	top: 880px;
+	width: 100%;
+	height: 30px;
+	border-bottom: 1px solid #ddd;
+}
+.foot .footRt .bestBook h3{
+	display: inline-block;
+	margin-right: 18px;
+}
+.foot .footRt .bestBook p{
+	margin-top: 20px;
+}
+.foot .footRt .bestBook p span{
+	margin-right: 15px;
+}
+.foot .footRt .bestBook p span a{
+	font-size: 12px;
+	color: #ccc5bf;
+}
+.foot .footRt .bestBook p .font1{
+	padding: 4px 7px;
+	background: #455;
+	height: 20px;
+	color: white;
+}
+.foot .footRt .bestBook p .font2:hover{
+	background: #455;
+	padding: 4px 7px;
+}
+/*畅销图书排行榜第一本*/
+/*以下每本均继承第一本的属性*/
+.foot .footRt .inform{
+	margin-top: 28px;
+}
+.foot .footRt .inform li{
+	margin-top: 8px;
+	font-size: 14px;
+	position: relative;
+	width: 100%;
+	height: 43px;
+	border-bottom: 1px dashed #ddd;
+}
+.foot .footRt .inform li div{
+	/*width: 80%;
+	height: 50px;
+	border: 1px solid green;*/
+	margin-left: 18px;
+	margin-top: -20px;
+}
+.foot .footRt .inform span{
+	display: block;
+	color: #555;
+	font-size: 12px;
+	margin-bottom: 3px;
+}
+.foot .footRt .inform span a{
+	font-size: 14px;
+	color: #3377aa;
+}
+.foot .footRt .inform .informRt{
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	color: #999;
+}
+.foot .footRt .inform li:hover{
+	background: #efefef;
+}
+.foot .footRt .inform .informRt:hover{
+	border: 1px solid #d4bea7;
+	color: #d4bea7;
+	cursor: pointer;
+}
+/*豆瓣图书250*/
+.foot .footRt .books{
+	position: absolute;
+	top: 1522px;
+	height: 30px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	border-bottom: 1px solid #ddd;
+}
+/*豆瓣图书250导航*/
+.foot .footRt .books h3{
+	display: inline-block;
+	margin-right: 20px;
+}
+.foot .footRt .books a{
+	font-size: 12px;
+	color: #37a;
+}
+/*豆瓣图书250第一行样式*/
+.foot .footRt .booksImg ul{
+	/*width: 100%;
+	height: 500px;*/
+	margin-top: 13px;
+}
+.foot .footRt .booksImg ul li{
+	float: left;
+	width: 98px;
+	height: 135px;
+	margin-top: 10px;
+	/*border: 1px solid green;*/
+}
+.foot .footRt .booksImg li p{
+	text-align: center;
+}
+.foot .footRt .booksImg li img{
+	margin-left: 13px;
+}
+/*联系我们*/
+.foot .footRt .call{
+	position: absolute;
+	top: 2020px;
+	height: 30px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	border-bottom: 1px solid #ddd;
+}
+/*联系我们导航*/
+.foot .footRt .call h5{
+	display: inline-block;
+	margin-right: 20px;
+}
+.foot .footRt .call p{
+	margin-top: 27px;
+	/*width: 100%;
+	height: 30px;
+	border: 1px solid black;*/
+	font-size: 14px;
+	/*color: #37a;*/
+}
+.foot .footRt .call p img{
+	/*margin-top: 2px;*/
+	height: 14px;
+}
+/*关注我们*/
+.foot .footRt .look{
+	position: absolute;
+	top: 2120px;
+	height: 30px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	border-bottom: 1px solid #ddd;
+}
+/*关注我们导航*/
+.foot .footRt .look h5{
+	display: inline-block;
+	margin-right: 20px;
+}
+.foot .footRt .look p{
+	margin-top: 27px;
+}
+/*豆瓣时间*/
+.foot .footRt .timer{
+	position: absolute;
+	top: 2270px;
+	height: 100px;
+	width: 100%;
+	background: #f9f9f9;
+}
+.foot .footRt .timer img{
+	height: 80px;
+}
+.foot .footRt .timer div{
+	margin-top: -83px;
+	margin-left: 100px;
+	height: 100px;
+	width: 200px;
+/*	border: 1px solid black;*/
+}
+.foot .footRt .timer div p{
+	margin-top: 9px;
+	font-size: 13px;
+	color: #555;
+}
+.foot .footRt .timer div p a{
+	color: #37a;
+}
+/*下载豆瓣APP*/
+.foot .footRt .dou{
+	position: absolute;
+	top: 2390px;
+	height: 50px;
+	width: 100%;
+	background: #f9f9f9;
+}
+.foot .footRt .dou img{
+	height: 24px;
+}
+.foot .footRt .dou p{
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	line-height: 60px;
+}
+.foot .footRt .dou  p  span a{
+	font-size: 13px;
+	color: #37a;
+}
+/*土耳其度假广告*/
+.foot .footRt .vacation{
+	position: absolute;
+	top: 2460px;
+	width: 100%;
+}
+
+
+/*搜索时的样式*/
+.hidden{
+	  	position: absolute;
+	  	left: 369px;
+	  	top: 95px;
+	  	/*height: 450px;*/
+	  	width: 450px;
+	  	background: #fff;
+	  	border-left: 1px solid #ddd;
+	  	border-right: 1px solid #ddd;
+	  	z-index: 100;
+	  	display: none;
+	  }
+	  .hidden .hiddenOne{
+	  	width: 100%;
+	  	height: 73px;
+	  	border-bottom: 1px solid  #ddd;
+	  }
+	  .hidden .hiddenOne .hiddenBook{
+	  	margin-top: 7px;
+	  	width: 51px;
+	  	height: 62px;
+	  }
+	  .hidden .hiddenOne div{
+	  	margin-top: -66px;
+	  	margin-left: 60px;
+	  }
+	  .hidden .hiddenOne div p {
+	  	font-size: 11px;
+	  	color: #999;
+	  }
+	  .hidden .hiddenOne p .names{
+	  	color: #37a;
+	  }
+
