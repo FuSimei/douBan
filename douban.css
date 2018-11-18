@@ -776,7 +776,7 @@ body .all .foot .color:hover{
 	  	position: absolute;
 	  	left: 369px;
 	  	top: 95px;
-	  	/*height: 450px;*/
+	  	height: 200px;
 	  	width: 450px;
 	  	background: #fff;
 	  	border-left: 1px solid #ddd;
